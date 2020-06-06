@@ -10,7 +10,7 @@ import {Stack, InputGroup, InputRightElement, Input } from "@chakra-ui/core";
 
 export const OnboardingForm = () => (
     <div class="boxit">
-      <Box bg="white" w="60%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D" borderWidth="2px" rounded="lg" h="80%" shadow="5px 10px 18px #888888" mb="20%"> 
+      <Box bg="white" w="40%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D" borderWidth="2px" rounded="lg" h="80%" shadow="5px 10px 18px #888888" mb="20%"> 
       <div class="iconWrapper">
         <Icon name="close"  color="gray.400" size="10px" />
       </div>
