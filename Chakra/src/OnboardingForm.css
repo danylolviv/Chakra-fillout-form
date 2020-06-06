@@ -1,0 +1,14 @@
+.labelWrapper {
+    display: flex;
+    justify-content: center;
+};
+
+.checkboxWrapper {
+    border-radius: 1rem;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 105%;
+}
