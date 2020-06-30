@@ -42,4 +42,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+  flex-direction: column;
+  margin-bottom: 10%;
+  min-width: 40%;
+}
+
+.radio{
+  display: flex;
+  flex-direction: column;
 }
