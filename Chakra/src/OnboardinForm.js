@@ -6,16 +6,15 @@ import { Heading } from "@chakra-ui/core";
 import { Checkbox, CheckboxGroup } from "@chakra-ui/core";
 import { Button } from "@chakra-ui/core";
 import {Stack, InputGroup, InputRightElement, Input } from "@chakra-ui/core";
-import TestHookForm from './components/testForm';
-import App from './components/reactHookFormGen';
+
+
 
 
 export const OnboardingForm = () => (
     <div className="boxit">
-        <App />
-        <Box bg="white" w="40%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D"
+        <Box bg="white" w="50%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D"
            borderWidth="2px" rounded="lg" h="80%" shadow="5px 10px 18px #888888"
-           mb="20%">
+           mb="20%" >
       <div className="iconWrapper">
         <Icon name="close"  color="gray.400" size="10px" />
       </div>
@@ -65,7 +64,7 @@ export const OnboardingForm = () => (
       </div>
       <Stack  width="100%" flexDirection="row" justifyContent="space-between"
               mt={3} >
-        <InputGroup flexWrap="row"   >
+        <InputGroup flexWrap="row" >
           <Input placeholder="Приостановить С" />
           <InputRightElement children={<Icon name="calendar" color="green.500" />} />
         </InputGroup>
@@ -77,8 +76,6 @@ export const OnboardingForm = () => (
 
       <Button variantColor="red" width="100%" mt={3} >Button</Button>
       </Box>
-        <TestHookForm />
-
       </div>
 
 );

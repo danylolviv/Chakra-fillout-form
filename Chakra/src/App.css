@@ -50,4 +50,12 @@
 .radio{
   display: flex;
   flex-direction: column;
+  flex-grow: 1
+
+}
+
+.calenditto{
+  display: flex;
+  margin: 10%;
+  justify-content: center;
 }

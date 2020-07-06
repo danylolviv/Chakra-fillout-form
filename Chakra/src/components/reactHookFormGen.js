@@ -27,9 +27,10 @@ export default function App() {
         ' the required fields, have a nice DAY!!!',errors);
 
     return (
-        <Box bg="white" w="40%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D"
-             borderWidth="2px" rounded="lg" h="80%" shadow="5px 10px 18px #888888"
-             mb="20%" flexDirection="column" >
+        <div className="boxit">
+            <Box bg="white" w="40%" pt="2%" pb="2%" pr="4%" pl="4%" color="1D1D1D"
+                 borderWidth="2px" rounded="lg" h="80%" shadow="5px 10px 18px #888888"
+                 mb="20%" flexDirection="column"  >
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="iconWrapper">
                         <Icon name="close" color="gray.400" size="10px"/>
@@ -108,7 +109,7 @@ export default function App() {
                                 Неопределеннок до возобновления
                             </Box>
                         </label>
-
+                        <div className="break"></div>
                         <label>
                             {/* This is the sibling input, it's visually hidden */}
                             <VisuallyHidden type="radio" name="time" value="Set from-to" as="input" ref={register({ required: true })} />
@@ -146,7 +147,9 @@ export default function App() {
                     </div>
 
                 </form>
-        </Box>
+            </Box>
+        </div>
+
 
     );
 }
