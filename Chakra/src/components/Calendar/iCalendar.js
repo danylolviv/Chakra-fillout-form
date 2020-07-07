@@ -5,13 +5,16 @@ import './iCalendar.css';
 
 
 
-function ICalendar() {
+function ICalendar(props) {
     const [value, onChange] = useState([new Date(), new Date()]);
     console.log(value);
+    let makeRangeDisabled = false
+
 
     return (
         <div className="calendarWrapper">
             <DateRangePicker
+                minDate={new Date()}
                 showNeighboringMonth={true}
                 selectRange={true}
                 next2Label={null}
@@ -20,6 +23,7 @@ function ICalendar() {
                 onChange={onChange}
                 value={value}
                 required={true}
+                disabled={props.disabled}
             />
         </div>
     );
