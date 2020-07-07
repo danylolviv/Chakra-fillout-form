@@ -10,5 +10,6 @@
 .iconWrapper {
     display: flex;
     justify-content: flex-end;
-    width: 105%;
+    margin-right: 12px;
+    margin-top:  12px;
 }

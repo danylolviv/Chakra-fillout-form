@@ -24,6 +24,7 @@ function ICalendar(props) {
                 value={value}
                 required={true}
                 disabled={props.disabled}
+                rangeDivider={null}
             />
         </div>
     );
