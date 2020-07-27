@@ -7,7 +7,7 @@ import './iCalendar.css';
 
 function ICalendar(props) {
     const [value, onChange] = useState([new Date(), new Date()]);
-    console.log(value);
+
     let makeRangeDisabled = false
 
 

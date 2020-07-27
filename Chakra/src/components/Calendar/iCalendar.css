@@ -118,7 +118,7 @@
     color: red;
 }
 
-.react-calendar__navigation button[disabled] {
+.calendarWrapper .react-calendar__navigation button[disabled] {
     background-color: #C8F3DC ;
     cursor: not-allowed;
 }
@@ -127,17 +127,17 @@
     background-color: #C8F3DC ;
 }
 
-.react-daterange-picker__calendar-button react-daterange-picker__button{
+.calendarWrapper .react-daterange-picker__calendar-button react-daterange-picker__button{
     box-sizing: border-box;
 }
 
-.react-daterange-picker--disabled {
+.calendarWrapper .react-daterange-picker--disabled {
     background-color: white;
     color: #6d6d6d;
 }
 .error {
     margin-left: 42px;
-    color: #14B855;
+    color: red;
 }
 
 

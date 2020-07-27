@@ -23,9 +23,6 @@ export default function Form(props) {
         //     '\nВремя:' + data.time
         // )
     };
-    console.log('Error Has Ocured Please check if you have fullfilled all' +
-        ' the required fields, have a nice DAY!!!',errors);
-
     let makeRangeDisabled = false
 
     const watchTime = watch("time", props.time);
@@ -35,9 +32,6 @@ export default function Form(props) {
     } else {
         makeRangeDisabled = false
     }
-
-    console.log(makeRangeDisabled)
-
 
     return (
         <div className="boxit">
